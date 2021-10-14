@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { decrement, increment, incrementByAmount } from './counterSlice';
 
-import './Counter.scss';
+import './Counter.css';
 
 export default function Counter() {
   const [inputValue, setInputValue] = useState();

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Counter from './features/counter';
-import './App.scss';
+import './App.css';
 
 function App() {
   return (
